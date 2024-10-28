@@ -59,6 +59,7 @@
     position: fixed;
     padding:5px 200px;
     top:5px;
+    z-index:1000;
     background-color: rgba(194, 117, 130, 0.7);
 }
 
