@@ -1,0 +1,315 @@
+*{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    /* overflow-x: hidden; */
+}
+
+::selection{
+    color:white;
+    background-color: pink;
+}
+.section-1{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color:rgb(194, 117, 130);
+    /* position: relative; */
+    padding: 20px;
+}
+
+.section-1 .hero-sec{
+    display:flex;
+    height: 100%;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height:50px;
+    background-size: cover;
+    padding: 0px 40px;
+    margin-top: -5px;
+}
+/* .navbg{
+    height:8vh;
+    width:100%;
+    position: fixed;
+    background-color: rgba(194, 117, 130, 0.7);
+    top:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.nav-sort-of{
+    width: 100%;
+    height:8vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+    align-self: center;
+    position: fixed;
+    padding:5px 200px;
+    top:5px;
+    background-color: rgba(194, 117, 130, 0.7);
+}
+
+.links ul{
+    display:flex;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 20px;
+    margin-top: 5px;
+}
+a{
+    color:#e5e7eb;
+    text-decoration: none;
+}
+
+.hero-sec .image{
+    width:500px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.hero-sec .text {
+    padding: 20px;
+}
+
+.hero-sec .text .headline{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    text-align: left;
+    line-height: 50px;
+    padding: 0px 0px 5px ;
+}
+
+.hero-sec .text .intro{
+    font-size: 18px;
+    color:#e5e7eb;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+.hero-sec button{
+    border:none;
+    border-radius: 8px;
+    color: rgb(39, 9, 27);
+    background-color: pink;
+    padding:10px 40px;
+    font-size:15px;
+    margin-top: 10px;
+    margin-left: -200px;
+    justify-content: left;
+}
+
+
+/* section 2+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.section-2{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-basis: 100%;
+    flex-wrap: wrap;
+    flex-flow: column; */
+}
+
+.section-2 h1{
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+
+.section-2-2{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2-2 img{
+    width:180px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px #4b014b33;
+    transition: .5s;
+}
+.section-2-2 .caption{
+    display: inline-block;/*the images are not in line, though*/
+    width:180px;
+    font-size: 12px;
+    margin:20px;
+}
+
+.section-2-2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* section 3 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.section-3{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+.section-3-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-3-3 .quote{
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+.section-3-3 .name{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+
+/* section 4 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.section-4{
+    height: 80vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.section-4 .call-to-action{
+    width:70%;
+    height:50%;
+    background-color:pink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px 80px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 50px rgba(117, 110, 110, 0.212);
+    border:1px solid black;
+}
+
+.section-4 img{
+    position:absolute;
+    width:200px;
+    right:450px;
+    bottom:130px;
+}
+
+.section-4 .call-to-action .text .first{
+    font-size: 36px;
+    color: white;
+    text-align: left;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.section-4 .call-to-action .text .second{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgba(194, 117, 130,0.7);
+    text-align: left;
+    font-weight: lighter;
+}
+
+.section-4 .call-to-action button{
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    padding:10px 40px;
+    background-color: transparent;
+    border:2px solid white;
+    font-weight: 500;
+}
+
+
+
+.footer{
+    height: 20vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(194, 117, 130);
+}
+
+.footer p{
+    text-align: center;
+    font-size: 15px;
+    color:#e5e7eb;
+    text-shadow: rgb(59, 7, 15) .5px .5px ;
+    letter-spacing: 2px;
+}
+
+.link{
+    transition: .3s;
+    cursor:pointer;
+}
+.link:hover{
+    color:pink;
+    opacity:.9;
+}
+
+button{
+    cursor:pointer;
+    transition: .5s;
+}
+
+.hero-sec button:hover{
+    color:pink;
+    background-color: rgba(0, 0, 0, 0.301);
+}
+
+.section-4 button:hover{
+    color:pink;
+    background-color: white;
+}
+
+
+/* 
+.section-4 p ::selection{
+    color:pink;
+    background-color: white;
+} */
+
+.section-2-2 img:hover{
+    width:250px;
+    height: 250px;
+}
+
+.section-3:hover{
+    background-image: url(l.jpg);
+    background-size:cover;
+    color:white;
+}
+
