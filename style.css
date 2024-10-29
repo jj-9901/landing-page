@@ -234,6 +234,7 @@ a{
     text-align: left;
     font-weight: 900;
     letter-spacing: 1px;
+    width:500px;
 }
 .section-4 .call-to-action .text .second{
     font-size: 18px;
